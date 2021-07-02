@@ -41,7 +41,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto d-flex flex-column text-center">
                         <h3 class="mt-2"><strong>BUILD YOUR DREAM</strong> </h3>
-                        <h6 class="rounded p-1 border" style="color: #fff; background: orange"><strong>Marketplace For Online Services</strong></h6>
+                        <h6 class="rounded p-1 border" style="color: #fff; background: orange"><strong>DIGITAL ASSETS Toolbox</strong></h6>
                     </ul>
                 </div>
             </div>
