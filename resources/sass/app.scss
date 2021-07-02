@@ -1,0 +1,106 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.header {
+    -webkit-box-shadow: 0 4px 2px -2px rgba(233, 233, 233, 1);
+    -moz-box-shadow: 0 4px 2px -2px rgba(233, 233, 233, 1);
+    box-shadow: 0 4px 2px -2px rgba(233, 233, 233, 1);
+}
+
+.stud-logo {
+    
+}
+
+.top-nav-bar {
+    height: 40px;
+     margin: 16px 32px;
+     border-radius: 2px;
+
+
+    .top-nav-item {
+        margin-right: 40px;
+    }
+
+    .home {
+        text-align: center;
+        background: #B5B4B5; 
+        height:50px;
+        width:50px;
+        border-radius: 4px;
+       
+    }
+
+    .home i {
+        color: #F5774C;
+        margin-top: 10px;
+    }
+
+    .sign-up {
+        height: 40px;
+        margin-right: 0;
+        width: 120px;
+        background-color: #F5774C;
+        text-align: center;
+        border-radius: 2px;
+        color: #fff;
+        font-weight: bold;
+    } 
+
+    .sign-in {
+        height: 40px;
+        margin-right: 0;
+        width: 120px;
+        text-align: center;
+        background-color: #D9D9D9;
+        border-radius: 2px;
+        font-weight: bold;
+    }
+}
+
+.services-menu {
+    height: 160px;
+    background-color: #fff;
+
+    .separator {
+        height: 60px;
+        border-right: 4px solid #ccc;
+    }
+
+    -webkit-box-shadow: 0px -4px 3px rgba(233, 233, 233, 1);
+    -moz-box-shadow: 0px -4px 3px rgba(233, 233, 233, 1);
+    box-shadow: 0px -4px 3px rgba(233, 233, 233, 1);
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.services-menu .menu-item {
+
+    width: 150px;
+    padding: 16px;
+
+    :hover {
+        cursor: pointer;
+    }
+
+ 
+    text-align: center;
+ 
+    .item-icon {
+        width: 50%;
+    }
+
+    .item-label {
+        margin-top: 12px;
+    }
+}
+
+
+
