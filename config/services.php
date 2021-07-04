@@ -36,10 +36,10 @@ return [
         'redirect' => 'http://dev-stud.umerinayat.com/callback/google',
     ],
 
-    // 'facebook' => [
-    //     'client_id' => env('GITHUB_CLIENT_ID'),
-    //     'client_secret' => env('GITHUB_CLIENT_SECRET'),
-    //     'redirect' => 'http://wad.local/callback-url',
-    // ],
+    'facebook' => [
+        'client_id' => env('FACEBOOK_CLIENT_ID'),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect' => 'http://dev-stud.umerinayat.com/callback/facebook',
+    ],
 
 ];
