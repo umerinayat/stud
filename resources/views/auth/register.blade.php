@@ -68,6 +68,11 @@
                                 </button>
                             </div>
                         </div>
+                        <div class="form-group row mt-4">
+                            <div class="col-md-8 offset-md-4">
+                                <a href="{{ url('/auth/redirect/google') }}" class="btn btn-warning"><i class="fa fa-google"></i>Login With Google</a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>

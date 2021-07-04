@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\SocialController;
+use App\Http\Controllers\Client\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -19,6 +20,12 @@ Route::get('/auth/redirect/{provider}', [SocialController::class, 'redirect']);
 Route::get('/callback/{provider}', [SocialController::class, 'callback']);
 
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('client.dashboard');
+
+
+
+
