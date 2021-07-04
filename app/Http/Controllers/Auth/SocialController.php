@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Validator, Redirect, Response, File;
 use Socialite;
 use App\Models\User;
+use Illuminate\Support\Str;
+
 
 class SocialController extends Controller
 {
@@ -37,6 +39,7 @@ class SocialController extends Controller
                 'name'     => $getInfo->name,
                 'email'    => $getInfo->email,
                 'email_verified_at' => now(),
+                'remember_token' => Str::random(10),
                 'provider' => $provider,
                 'provider_id' => $getInfo->id
             ]);
